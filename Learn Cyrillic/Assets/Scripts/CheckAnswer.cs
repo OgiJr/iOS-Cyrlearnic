@@ -72,8 +72,8 @@ public class CheckAnswer : MonoBehaviour
         GameObject.Find("Click").GetComponent<AudioSource>().Play();
         mainCamera.backgroundColor = defaultColor;
         background.color = standardBackground;
-        exerciseManager.transform.localPosition = new Vector2(1500, 0);
-        exerciseManager.transform.DOLocalMoveX(0, 2);
-        this.transform.DOLocalMoveX(-1500, 2);
+        exerciseManager.transform.localPosition = new Vector2(1700, 0);
+        exerciseManager.transform.DOLocalMoveX(0, 2.2f);
+        this.transform.DOLocalMoveX(-2200, 2);
     }
 }

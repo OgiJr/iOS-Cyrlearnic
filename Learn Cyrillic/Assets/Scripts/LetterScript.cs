@@ -474,7 +474,7 @@ public class LetterScript : MonoBehaviour
                         break;
                     case 2:
                         letterObject.transform.GetChild(5).transform.GetChild(3).GetComponent<Text>().text = "[С]алса";
-                        letterObject.transform.GetChild(5).transform.GetChild(4).GetComponent<Text>().text = "[S]alsa"; 
+                        letterObject.transform.GetChild(5).transform.GetChild(4).GetComponent<Text>().text = "[S]alsa";
                         audioWord.clip = audioClipWord[53];
                         break;
                 }
@@ -2357,12 +2357,12 @@ public class LetterScript : MonoBehaviour
 
         letterObject = Instantiate(letterPrefab, this.transform.parent.transform.parent);
 
-        letterObject.transform.localPosition = new Vector2(1500, 0);
+        letterObject.transform.localPosition = new Vector2(2000, 0);
         letterObject.transform.DOLocalMoveX(0, 2);
 
         menu.GetComponent<Button>().enabled = false;
         menu.GetComponent<Image>().enabled = false;
-        this.transform.parent.DOLocalMoveX(-1500, 2);
+        this.transform.parent.DOLocalMoveX(-2000, 2);
 
         audioLetter = letterObject.transform.GetChild(7).gameObject.GetComponent<AudioSource>();
         audioWord = letterObject.transform.GetChild(9).gameObject.GetComponent<AudioSource>();

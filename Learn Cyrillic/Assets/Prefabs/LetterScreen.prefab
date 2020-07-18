@@ -60,11 +60,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8745098, g: 0.9764706, b: 0.9843137, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 92f21bb8593a67943981c5388c052d45, type: 3}
     m_FontSize: 225
@@ -140,11 +139,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.74509805, b: 0.4627451, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 85e070b6596d0b64da28d55decddf3a9, type: 3}
     m_FontSize: 150
@@ -392,11 +390,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8745098, g: 0.9764706, b: 0.9843137, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: d7c905159ce43ca4aa64b991826f37b4, type: 3}
     m_FontSize: 200
@@ -740,14 +737,13 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 667be6da6ce013a4a86ca7276d9950cf, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -809,8 +805,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &6768543060149179319
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,6 +869,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -997,14 +992,13 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8745098, g: 0.9764706, b: 0.9843137, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 3e43c73fd8ac9fe4698150e74f61f816, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1066,8 +1060,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &7407216853035380094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,6 +1199,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExampleScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 3416627870677565878, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
+        type: 3}
+      propertyPath: success
+      value: 
+      objectReference: {fileID: 4747466255491954744}
+    - target: {fileID: 3416627870677565878, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
+        type: 3}
+      propertyPath: writeBoard
+      value: 
+      objectReference: {fileID: 6768543060149179319}
+    - target: {fileID: 3416627870677565878, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
+        type: 3}
+      propertyPath: letterAudio
+      value: 
+      objectReference: {fileID: 6197874754186165562}
+    - target: {fileID: 3416627870677565878, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
+        type: 3}
+      propertyPath: wordAudio
+      value: 
+      objectReference: {fileID: 514474119830252074}
+    - target: {fileID: 3784916481162858891, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.299988
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935723417941114168, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935723417941114168, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.74509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935723417941114168, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.4627451
+      objectReference: {fileID: 0}
     - target: {fileID: 6491962565861734937, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1311,46 +1343,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416627870677565878, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
-        type: 3}
-      propertyPath: success
-      value: 
-      objectReference: {fileID: 4747466255491954744}
-    - target: {fileID: 3416627870677565878, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
-        type: 3}
-      propertyPath: writeBoard
-      value: 
-      objectReference: {fileID: 6768543060149179319}
-    - target: {fileID: 3416627870677565878, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
-        type: 3}
-      propertyPath: letterAudio
-      value: 
-      objectReference: {fileID: 6197874754186165562}
-    - target: {fileID: 3416627870677565878, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
-        type: 3}
-      propertyPath: wordAudio
-      value: 
-      objectReference: {fileID: 514474119830252074}
-    - target: {fileID: 3784916481162858891, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -4.299988
-      objectReference: {fileID: 0}
-    - target: {fileID: 5935723417941114168, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
-        type: 3}
-      propertyPath: m_RaycastTarget
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5935723417941114168, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.74509805
-      objectReference: {fileID: 0}
-    - target: {fileID: 5935723417941114168, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.4627451
       objectReference: {fileID: 0}
     - target: {fileID: 7595333351936550045, guid: 63df3d4fb33641a44bee6f5b18dcadf3,
         type: 3}

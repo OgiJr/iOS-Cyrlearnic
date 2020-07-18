@@ -9,7 +9,7 @@ public class HomeManager : MonoBehaviour
     public int languageSelected = 0;
     public AudioSource click;
 
-    private Vector2 spawnPos = new Vector2(1500, 0);
+    private Vector2 spawnPos = new Vector2(2000, 0);
     public GameObject homeObject;
 
     private void Start()
@@ -40,19 +40,19 @@ public class HomeManager : MonoBehaviour
                 newMenu = Instantiate(languageSettings[0], this.transform);
                 newMenu.transform.localPosition = spawnPos;
                 newMenu.transform.DOLocalMoveX(0, 2);
-                homeObject.transform.DOMoveX(-1500, 2);
+                homeObject.transform.DOLocalMoveX(-2000, 2);
                 break;
             case "BUL":
                 newMenu = Instantiate(languageSettings[3], this.transform);
                 newMenu.transform.localPosition = spawnPos;
                 newMenu.transform.DOLocalMoveX(0, 2);
-                homeObject.transform.DOMoveX(-1500, 2);
+                homeObject.transform.DOLocalMoveX(-2000, 2);
                 break;
             case "SER":
                 newMenu = Instantiate(languageSettings[4], this.transform);
                 newMenu.transform.localPosition = spawnPos;
                 newMenu.transform.DOLocalMoveX(0, 2);
-                homeObject.transform.DOMoveX(-1500, 2);
+                homeObject.transform.DOLocalMoveX(-2000, 2);
                 break;
             default:
                 newMenu = Instantiate(languageSettings[8]);

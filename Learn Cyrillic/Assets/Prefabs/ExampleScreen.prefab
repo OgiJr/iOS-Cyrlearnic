@@ -59,6 +59,7 @@ MonoBehaviour:
   writeBoard: {fileID: 0}
   letterAudio: {fileID: 0}
   wordAudio: {fileID: 0}
+  advanceButton: {fileID: 0}
 --- !u!1 &3784916479198546918
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,11 +120,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 92f21bb8593a67943981c5388c052d45, type: 3}
     m_FontSize: 190
@@ -199,11 +199,10 @@ MonoBehaviour:
   m_Material: {fileID: 2100000, guid: 85e070b6596d0b64da28d55decddf3a9, type: 3}
   m_Color: {r: 1, g: 0.74509805, b: 0.4627451, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 92f21bb8593a67943981c5388c052d45, type: 3}
     m_FontSize: 14
@@ -233,11 +232,10 @@ MonoBehaviour:
   m_Material: {fileID: 2100000, guid: 85e070b6596d0b64da28d55decddf3a9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 92f21bb8593a67943981c5388c052d45, type: 3}
     m_FontSize: 14
@@ -343,14 +341,13 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8745098, g: 0.9764706, b: 0.9843137, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 667be6da6ce013a4a86ca7276d9950cf, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -401,8 +398,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &7595333353238097092
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,14 +459,13 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8745098, g: 0.9764706, b: 0.9843137, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 93b3d004e1ed7884b9bd712e5a6f9ceb, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -533,5 +527,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null

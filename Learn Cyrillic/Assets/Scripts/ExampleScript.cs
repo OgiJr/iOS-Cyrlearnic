@@ -14,11 +14,16 @@ public class ExampleScript : MonoBehaviour
     public AudioSource letterAudio;
     public AudioSource wordAudio;
 
+    public GameObject advanceButton;
+
     private void Update()
     {
         if (click == null)
         {
             click = GameObject.Find("Click").GetComponent<AudioSource>();
+            for(int i = 0; i < this.transform.childCount; i++){
+              transform.GetChild(i).gameObject.SetActive(false);
+            }
         }
 
         if (writeBoard != null)
@@ -70,6 +75,11 @@ public class ExampleScript : MonoBehaviour
         click.Play();
         Destroy(writeBoard);
         this.transform.parent.transform.DOLocalMoveX(-1500, 2);
+        Destroy(advanceButton);
+
+        for(int i = 0; i < this.transform.childCount; i++){
+          transform.GetChild(i).gameObject.SetActive(true);
+        }
     }
 
     public void Return()
@@ -78,18 +88,18 @@ public class ExampleScript : MonoBehaviour
         {
             ProgressManager progressManager = GameObject.FindGameObjectWithTag("menu").GetComponent<ProgressManager>();
             progressManager.CheckLetters();
-            homeScreen.transform.localPosition = new Vector2(1500, 0);
+            homeScreen.transform.localPosition = new Vector2(2000, 0);
             homeScreen.transform.DOLocalMoveX(0, 2);
 
             mainMenu = GameObject.FindGameObjectWithTag("mainMenu");
             mainMenu.GetComponent<Button>().enabled = true;
             mainMenu.GetComponent<Image>().enabled = true;
-            this.transform.parent.transform.DOLocalMoveX(-3000, 2);
+            this.transform.parent.transform.DOLocalMoveX(-4000, 3);
             success.Play();
         }
         else
         {
-            GameObject.Find("LetterScreen(Clone)").transform.localPosition = new Vector2(1500, 0);
+            GameObject.Find("LetterScreen(Clone)").transform.localPosition = new Vector2(2000, 0);
             this.transform.parent.transform.DOLocalMoveX(0, 2);
         }
         PlayerPrefs.SetInt("LearnMode", 0);

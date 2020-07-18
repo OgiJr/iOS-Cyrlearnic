@@ -33,10 +33,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.592, y: 0.31676245}
-  m_AnchorMax: {x: 0.6496111, y: 0.45832303}
-  m_AnchoredPosition: {x: 1.6000061, y: 0.29999924}
-  m_SizeDelta: {x: 8.400002, y: -0.711998}
+  m_AnchorMin: {x: 0.592, y: 0.34}
+  m_AnchorMax: {x: 0.6496111, y: 0.49}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2339377203150866823
 CanvasRenderer:
@@ -61,11 +61,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -141,8 +140,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395330359738393
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.13338889, y: 0.63035285}
   m_AnchorMax: {x: 0.19000001, y: 0.7681211}
-  m_AnchoredPosition: {x: 0.9649999, y: 1.7000008}
+  m_AnchoredPosition: {x: 0.96499634, y: 1.6999817}
   m_SizeDelta: {x: 1.9300003, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395330359738597
@@ -204,11 +201,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -284,8 +280,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395330379917815
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,11 +341,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -427,8 +420,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395330535293860
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,9 +454,9 @@ RectTransform:
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.033}
   m_AnchorMin: {x: 0.22983335, y: 0.485}
-  m_AnchorMax: {x: 0.30400002, y: 0.60512114}
-  m_AnchoredPosition: {x: 2.6, y: -1.7}
-  m_SizeDelta: {x: -3.6, y: 1.9000015}
+  m_AnchorMax: {x: 0.30400002, y: 0.61}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.000009298325, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395330535293856
 CanvasRenderer:
@@ -490,11 +481,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -570,8 +560,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395330553772705
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,11 +621,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -713,8 +700,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395330760683441
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,11 +760,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8745098, g: 0.9764706, b: 0.9843137, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 85e070b6596d0b64da28d55decddf3a9, type: 3}
     m_FontSize: 160
@@ -829,7 +813,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.27600002}
   m_AnchorMin: {x: 0.2984445, y: 0.63035285}
   m_AnchorMax: {x: 0.36200002, y: 0.72987896}
-  m_AnchoredPosition: {x: 1.6, y: 20.8}
+  m_AnchoredPosition: {x: 1.6000061, y: 20.800003}
   m_SizeDelta: {x: 11.86, y: 54.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395330775263886
@@ -855,11 +839,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -935,8 +918,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395330811586955
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,7 +953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.37030557, y: 0.63035285}
   m_AnchorMax: {x: 0.44744444, y: 0.809}
-  m_AnchoredPosition: {x: 2.600006, y: -14.7}
+  m_AnchoredPosition: {x: 2.600006, y: -14.699982}
   m_SizeDelta: {x: 6, y: -38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395330811586967
@@ -998,11 +979,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1078,8 +1058,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395330952323950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,10 +1091,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15122224, y: 0.485}
-  m_AnchorMax: {x: 0.21527779, y: 0.5845202}
-  m_AnchoredPosition: {x: -1, y: 1.3}
-  m_SizeDelta: {x: -1.3000002, y: 4.130001}
+  m_AnchorMin: {x: 0.14855558, y: 0.485}
+  m_AnchorMax: {x: 0.21527779, y: 0.61}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.0000121593475, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395330952323946
 CanvasRenderer:
@@ -1141,11 +1119,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1221,8 +1198,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395330999100348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,11 +1258,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.74509805, b: 0.4627451, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 92f21bb8593a67943981c5388c052d45, type: 3}
     m_FontSize: 120
@@ -1366,11 +1340,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.40784314, g: 0.42745098, b: 0.8784314, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1435,8 +1408,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395331201844946
 GameObject:
   m_ObjectHideFlags: 0
@@ -1473,7 +1444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.16800001}
   m_AnchorMax: {x: 1, y: 0.30634376}
-  m_AnchoredPosition: {x: 5.36, y: -6}
+  m_AnchoredPosition: {x: 5.3599854, y: -6}
   m_SizeDelta: {x: 0, y: 8}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &623395331201844958
@@ -1499,11 +1470,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.40784314, g: 0.42745098, b: 0.8784314, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1568,8 +1538,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395331221901041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,7 +1684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.27665627}
   m_AnchorMax: {x: 1, y: 0.8006876}
-  m_AnchoredPosition: {x: 0, y: -2.600006}
+  m_AnchoredPosition: {x: 0, y: -2.5999756}
   m_SizeDelta: {x: 0, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &623395331364943831
@@ -1931,11 +1899,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.74509805, b: 0.4627451, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 92f21bb8593a67943981c5388c052d45, type: 3}
     m_FontSize: 120
@@ -1984,9 +1951,9 @@ RectTransform:
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.25}
   m_AnchorMin: {x: 0.41330558, y: 0.485}
-  m_AnchorMax: {x: 0.4793889, y: 0.59047985}
-  m_AnchoredPosition: {x: -4.1, y: -2.4}
-  m_SizeDelta: {x: 5.3, y: 12}
+  m_AnchorMax: {x: 0.4793889, y: 0.61}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -0.00000071525574, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395331831779774
 CanvasRenderer:
@@ -2011,11 +1978,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -2091,8 +2057,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395331837165181
 GameObject:
   m_ObjectHideFlags: 0
@@ -2127,9 +2091,9 @@ RectTransform:
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.13100001}
   m_AnchorMin: {x: 0.694, y: 0.46868172}
-  m_AnchorMax: {x: 0.75688887, y: 0.6006817}
-  m_AnchoredPosition: {x: 2.9, y: 4.7}
-  m_SizeDelta: {x: 1.7999992, y: -8.5}
+  m_AnchorMax: {x: 0.75688887, y: 0.61}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.000002861023, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395331837165177
 CanvasRenderer:
@@ -2154,11 +2118,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -2234,8 +2197,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395331901203859
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,9 +2231,9 @@ RectTransform:
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.93500006}
   m_AnchorMin: {x: 0.59900004, y: 0.4745202}
-  m_AnchorMax: {x: 0.6765556, y: 0.596323}
-  m_AnchoredPosition: {x: 0.5, y: 1.2}
-  m_SizeDelta: {x: 7.8, y: 13.299999}
+  m_AnchorMax: {x: 0.6765556, y: 0.61}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.00000333786, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395331901203871
 CanvasRenderer:
@@ -2297,11 +2258,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -2377,8 +2337,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395331934613073
 GameObject:
   m_ObjectHideFlags: 0
@@ -2413,9 +2371,9 @@ RectTransform:
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.112}
   m_AnchorMin: {x: 0.5, y: 0.48052022}
-  m_AnchorMax: {x: 0.5816945, y: 0.596323}
-  m_AnchoredPosition: {x: 1.2, y: -3.1}
-  m_SizeDelta: {x: 5.9377003, y: 8.528801}
+  m_AnchorMax: {x: 0.5816945, y: 0.61}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395331934613085
 CanvasRenderer:
@@ -2440,11 +2398,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -2520,8 +2477,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395331963228537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2557,7 +2512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.6257778, y: 0.63556063}
   m_AnchorMax: {x: 0.69100004, y: 0.814}
-  m_AnchoredPosition: {x: -2.9, y: -17.5}
+  m_AnchoredPosition: {x: -2.899994, y: -17.5}
   m_SizeDelta: {x: -7.9999695, y: -28.999847}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395331963228485
@@ -2583,11 +2538,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -2663,8 +2617,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395332166959091
 GameObject:
   m_ObjectHideFlags: 0
@@ -2699,9 +2651,9 @@ RectTransform:
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7783889, y: 0.485}
-  m_AnchorMax: {x: 0.855, y: 0.609}
-  m_AnchoredPosition: {x: 4, y: -4.2}
-  m_SizeDelta: {x: -5.9999, y: -0.94940186}
+  m_AnchorMax: {x: 0.855, y: 0.61}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -0.0000054836273, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395332166959103
 CanvasRenderer:
@@ -2726,11 +2678,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -2806,8 +2757,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395332183046551
 GameObject:
   m_ObjectHideFlags: 0
@@ -2843,7 +2792,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.69816667, y: 0.63556063}
   m_AnchorMax: {x: 0.78661114, y: 0.75628257}
-  m_AnchoredPosition: {x: 2.6, y: -2.6000004}
+  m_AnchoredPosition: {x: 2.600006, y: -2.5999908}
   m_SizeDelta: {x: -5.3, y: 5.799999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395332183046547
@@ -2869,11 +2818,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -2949,8 +2897,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395332303931412
 GameObject:
   m_ObjectHideFlags: 0
@@ -2985,9 +2931,9 @@ RectTransform:
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.3278611, y: 0.485}
-  m_AnchorMax: {x: 0.3916111, y: 0.596323}
-  m_AnchoredPosition: {x: 4.5, y: -3.2}
-  m_SizeDelta: {x: 9, y: 0.95007324}
+  m_AnchorMax: {x: 0.3916111, y: 0.61}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395332303931408
 CanvasRenderer:
@@ -3012,11 +2958,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -3092,8 +3037,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &623395332355231973
 GameObject:
   m_ObjectHideFlags: 0
@@ -3154,11 +3097,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8745098, g: 0.9764706, b: 0.9843137, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: d7c905159ce43ca4aa64b991826f37b4, type: 3}
     m_FontSize: 149
@@ -3172,9 +3114,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "\u0410 \u0411 \u0412 \u0413 \u0414 \u0415 \u0401 \u0416 \u0417 \u0418 \u0419
-    \u041A \u041B \u041C \u041D \u041E \u041F \u0420 \u0421 \u0422 \u0423 \u0424 \u0425
-    \u0426 \u0427\n\u0428 \u0429 \u042A \u042B \u042C \u042D \u042E \u042F"
+  m_Text: "\u0410 \u0411 \u0412 \u0413 \u0414 \u0415 \u0401 \u0416 \u0417 \u0418
+    \u0419 \u041A \u041B \u041C \u041D \u041E \u041F \u0420 \u0421 \u0422 \u0423
+    \u0424 \u0425 \u0426 \u0427\n\u0428 \u0429 \u042A \u042B \u042C \u042D \u042E
+    \u042F"
 --- !u!1 &623395332406976129
 GameObject:
   m_ObjectHideFlags: 0
@@ -3210,7 +3153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.20975001, y: 0.63035285}
   m_AnchorMax: {x: 0.2711389, y: 0.814}
-  m_AnchoredPosition: {x: 0.95003, y: -0.60010004}
+  m_AnchoredPosition: {x: 0.95007324, y: -0.60009766}
   m_SizeDelta: {x: 0.29990005, y: 2.7997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623395332406976141
@@ -3236,11 +3179,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -3316,8 +3258,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &931312583434684825
 GameObject:
   m_ObjectHideFlags: 0
@@ -3351,10 +3291,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.33430555, y: 0.1665976}
-  m_AnchorMax: {x: 0.41744444, y: 0.305}
-  m_AnchoredPosition: {x: 0.9500656, y: -1.5247574}
-  m_SizeDelta: {x: -0.30000973, y: 1.5999985}
+  m_AnchorMin: {x: 0.33430555, y: 0.18}
+  m_AnchorMax: {x: 0.41744444, y: 0.34}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &462856073291317616
 CanvasRenderer:
@@ -3379,11 +3319,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -3459,8 +3398,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1501112215538975061
 GameObject:
   m_ObjectHideFlags: 0
@@ -3494,10 +3431,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.42522225, y: 0.171}
-  m_AnchorMax: {x: 0.52616674, y: 0.29387888}
-  m_AnchoredPosition: {x: -0.29999995, y: -0.20000076}
-  m_SizeDelta: {x: 1.1999998, y: 3.050354}
+  m_AnchorMin: {x: 0.42522225, y: 0.18}
+  m_AnchorMax: {x: 0.52616674, y: 0.34}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2629573168738261742
 CanvasRenderer:
@@ -3522,11 +3459,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -3602,8 +3538,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &2314933824755959930
 GameObject:
   m_ObjectHideFlags: 0
@@ -3637,10 +3571,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.7783889, y: 0.31676245}
-  m_AnchorMax: {x: 0.8317779, y: 0.448}
-  m_AnchoredPosition: {x: -0.8000002, y: 1.2000008}
-  m_SizeDelta: {x: 3, y: 1}
+  m_AnchorMin: {x: 0.7783889, y: 0.34}
+  m_AnchorMax: {x: 0.8317779, y: 0.49}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5406913074363115912
 CanvasRenderer:
@@ -3665,11 +3599,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -3745,8 +3678,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &2855481786136481538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3809,14 +3740,13 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: ffb63111dcc1a1b4c9c1bb12e3c90bef, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -3878,8 +3808,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &5660650186219955596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3928,10 +3856,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.31676245}
-  m_AnchorMax: {x: 0.5816945, y: 0.448}
-  m_AnchoredPosition: {x: -0.0625, y: 2.5}
-  m_SizeDelta: {x: 0.12493992, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.34}
+  m_AnchorMax: {x: 0.5816945, y: 0.49}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &227228005919754238
 CanvasRenderer:
@@ -3956,11 +3884,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -4036,8 +3963,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &4024568274360366502
 GameObject:
   m_ObjectHideFlags: 0
@@ -4071,10 +3996,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.8165001, y: 0.17400001}
-  m_AnchorMax: {x: 0.8815, y: 0.305}
-  m_AnchoredPosition: {x: -0.59994507, y: -1.099762}
-  m_SizeDelta: {x: 0.39999962, y: 1.0499573}
+  m_AnchorMin: {x: 0.8165001, y: 0.18}
+  m_AnchorMax: {x: 0.8815, y: 0.34}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2893056282553041083
 CanvasRenderer:
@@ -4099,11 +4024,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -4179,8 +4103,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &4253203731173180778
 GameObject:
   m_ObjectHideFlags: 0
@@ -4214,10 +4136,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.53438896, y: 0.17400001}
-  m_AnchorMax: {x: 0.6046111, y: 0.305}
-  m_AnchoredPosition: {x: 0.79999924, y: 0.8999939}
-  m_SizeDelta: {x: 0.0000076293945, y: -2.949646}
+  m_AnchorMin: {x: 0.53438896, y: 0.18}
+  m_AnchorMax: {x: 0.6046111, y: 0.34}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8198681800290111535
 CanvasRenderer:
@@ -4242,11 +4164,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -4322,8 +4243,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &4495615560523287091
 GameObject:
   m_ObjectHideFlags: 0
@@ -4359,7 +4278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.79233336, y: 0.63556063}
   m_AnchorMax: {x: 0.8731666, y: 0.76220185}
-  m_AnchoredPosition: {x: -1, y: -1.1000004}
+  m_AnchoredPosition: {x: -1, y: -1.0999908}
   m_SizeDelta: {x: 3.699997, y: 3.8000183}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3614557039603387422
@@ -4385,11 +4304,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -4465,8 +4383,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &5201473774256416222
 GameObject:
   m_ObjectHideFlags: 0
@@ -4500,10 +4416,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.106000006}
-  m_AnchorMin: {x: 0.17277777, y: 0.33156058}
-  m_AnchorMax: {x: 0.23400001, y: 0.46868172}
-  m_AnchoredPosition: {x: -0.100000024, y: 2.1000004}
-  m_SizeDelta: {x: 3.4102, y: -0.70000076}
+  m_AnchorMin: {x: 0.17277777, y: 0.34}
+  m_AnchorMax: {x: 0.23400001, y: 0.49}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8416078014776430479
 CanvasRenderer:
@@ -4528,11 +4444,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -4608,8 +4523,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &5554408066076854810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4643,10 +4556,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.7072222, y: 0.17400001}
-  m_AnchorMax: {x: 0.79788893, y: 0.305}
-  m_AnchoredPosition: {x: 0.6000519, y: -1.0999756}
-  m_SizeDelta: {x: -0.3000002, y: 1.0505524}
+  m_AnchorMin: {x: 0.7072222, y: 0.18}
+  m_AnchorMax: {x: 0.79788893, y: 0.34}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8676593564199990637
 CanvasRenderer:
@@ -4671,11 +4584,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -4751,8 +4663,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &5742592470724395983
 GameObject:
   m_ObjectHideFlags: 0
@@ -4786,10 +4696,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.33430555, y: 0.33156058}
-  m_AnchorMax: {x: 0.41330558, y: 0.45832303}
-  m_AnchoredPosition: {x: 0, y: 0.5}
-  m_SizeDelta: {x: 0, y: 4}
+  m_AnchorMin: {x: 0.33430555, y: 0.34}
+  m_AnchorMax: {x: 0.41330558, y: 0.49}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1727925731602315335
 CanvasRenderer:
@@ -4814,11 +4724,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -4894,8 +4803,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &5956388888054848303
 GameObject:
   m_ObjectHideFlags: 0
@@ -4929,10 +4836,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.6826111, y: 0.31676245}
-  m_AnchorMax: {x: 0.74200004, y: 0.44266108}
-  m_AnchoredPosition: {x: 1.5, y: 1.2000008}
-  m_SizeDelta: {x: 4, y: 2}
+  m_AnchorMin: {x: 0.6826111, y: 0.34}
+  m_AnchorMax: {x: 0.74200004, y: 0.49}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2147813557517319992
 CanvasRenderer:
@@ -4957,11 +4864,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -5037,8 +4943,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &6429552388211444069
 GameObject:
   m_ObjectHideFlags: 0
@@ -5199,10 +5103,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.23400001, y: 0.17400001}
-  m_AnchorMax: {x: 0.31100002, y: 0.29831833}
-  m_AnchoredPosition: {x: 3.3000002, y: -0.5999985}
-  m_SizeDelta: {x: 11.099998, y: 1.8320007}
+  m_AnchorMin: {x: 0.23400001, y: 0.18}
+  m_AnchorMax: {x: 0.31100002, y: 0.34}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1087046260171001291
 CanvasRenderer:
@@ -5227,11 +5131,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -5307,8 +5210,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &7670756747282897078
 GameObject:
   m_ObjectHideFlags: 0
@@ -5342,10 +5243,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.41744444, y: 0.33900002}
-  m_AnchorMax: {x: 0.4793889, y: 0.45547983}
-  m_AnchoredPosition: {x: 1.5999999, y: -4.5}
-  m_SizeDelta: {x: 4, y: 11}
+  m_AnchorMin: {x: 0.41744444, y: 0.34}
+  m_AnchorMax: {x: 0.4793889, y: 0.49}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623109837668007250
 CanvasRenderer:
@@ -5370,11 +5271,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -5450,8 +5350,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &7706512487706074920
 GameObject:
   m_ObjectHideFlags: 0
@@ -5485,10 +5383,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.12361111, y: 0.18583518}
-  m_AnchorMax: {x: 0.20419446, y: 0.30800003}
-  m_AnchoredPosition: {x: -1, y: -2.3999996}
-  m_SizeDelta: {x: 2.0000305, y: 3.0370178}
+  m_AnchorMin: {x: 0.12361111, y: 0.18}
+  m_AnchorMax: {x: 0.20419446, y: 0.34}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5423507949342835105
 CanvasRenderer:
@@ -5513,11 +5411,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -5593,8 +5490,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &7825925287533837336
 GameObject:
   m_ObjectHideFlags: 0
@@ -5628,10 +5523,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.2473889, y: 0.33156058}
-  m_AnchorMax: {x: 0.3173889, y: 0.46276248}
-  m_AnchoredPosition: {x: 0.2000122, y: 0.40000153}
-  m_SizeDelta: {x: 1.6000004, y: 0.3390007}
+  m_AnchorMin: {x: 0.2473889, y: 0.34}
+  m_AnchorMax: {x: 0.3173889, y: 0.49}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1867610581889018228
 CanvasRenderer:
@@ -5656,11 +5551,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -5736,8 +5630,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &7982079615290899812
 GameObject:
   m_ObjectHideFlags: 0
@@ -5771,10 +5663,10 @@ RectTransform:
   m_Father: {fileID: 9024178832179795219}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.6141667, y: 0.17400001}
-  m_AnchorMax: {x: 0.69100004, y: 0.305}
-  m_AnchoredPosition: {x: 0.11004639, y: -1.2397766}
-  m_SizeDelta: {x: 4.8099976, y: 0.7709999}
+  m_AnchorMin: {x: 0.6141667, y: 0.18}
+  m_AnchorMax: {x: 0.69100004, y: 0.34}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4400471025986826254
 CanvasRenderer:
@@ -5799,11 +5691,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -5879,5 +5770,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null

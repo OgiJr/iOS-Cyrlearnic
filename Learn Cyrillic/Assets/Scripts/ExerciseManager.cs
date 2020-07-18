@@ -439,12 +439,12 @@ public class ExerciseManager : MonoBehaviour
 
             GameObject exerciseObject = Instantiate(exerciseMenu, this.transform.parent);
 
-            exerciseObject.transform.localPosition = new Vector2(1500,0);
+            exerciseObject.transform.localPosition = new Vector2(2000,0);
             exerciseObject.transform.DOLocalMoveX(0, 2);
 
             menu.GetComponent<Button>().enabled = false;
             menu.GetComponent<Image>().enabled = false;
-            this.transform.DOLocalMoveX(-2200, 2);
+            this.transform.DOLocalMoveX(-2000, 2);
 
             if (level != 0)
             {
@@ -808,12 +808,12 @@ public class ExerciseManager : MonoBehaviour
 
             GameObject exerciseObject = Instantiate(exerciseMenu, this.transform.parent);
 
-            exerciseObject.transform.localPosition = new Vector2(1500, 0);
+            exerciseObject.transform.localPosition = new Vector2(2000, 0);
             exerciseObject.transform.DOLocalMoveX(0, 2);
 
             menu.GetComponent<Button>().enabled = false;
             menu.GetComponent<Image>().enabled = false;
-            this.transform.DOLocalMoveX(-2200, 2);
+            this.transform.DOLocalMoveX(-2000, 2);
 
             if (level != 0)
             {
@@ -1146,12 +1146,12 @@ public class ExerciseManager : MonoBehaviour
 
             GameObject exerciseObject = Instantiate(exerciseMenu, this.transform.parent);
 
-            exerciseObject.transform.localPosition = new Vector2(1500, 0);
+            exerciseObject.transform.localPosition = new Vector2(2000, 0);
             exerciseObject.transform.DOLocalMoveX(0, 2);
 
             menu.GetComponent<Button>().enabled = false;
             menu.GetComponent<Image>().enabled = false;
-            this.transform.DOLocalMoveX(-2200, 2);
+            this.transform.DOLocalMoveX(-2000, 2);
 
             if (level != 0)
             {
@@ -1169,7 +1169,7 @@ public class ExerciseManager : MonoBehaviour
             exerciseObject.transform.GetChild(1).gameObject.GetComponent<Text>().text = questions[questionIndexA, questionIndexB];
             answer = answers[questionIndexA, questionIndexB];
     }
-    
+
     private void Update()
         {
             if (GameObject.FindGameObjectWithTag("input") != null)
